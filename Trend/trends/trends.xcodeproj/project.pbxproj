@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846C4EEDA6DDBA5F3CCE4A27 /* libPods-trends.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C4F4F98D4F324020532CC2 /* libPods-trends.a */; };
+		BD2093E32BE35E360039CC50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2093E22BE35E360039CC50 /* AppDelegate.m */; };
+		BD2093EE2BE35E360039CC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2093ED2BE35E360039CC50 /* Assets.xcassets */; };
+		BD2093F12BE35E360039CC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2093EF2BE35E360039CC50 /* LaunchScreen.storyboard */; };
+		BD2093F42BE35E360039CC50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2093F32BE35E360039CC50 /* main.m */; };
+		BD2093FC2BE35EF50039CC50 /* BilibiliTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2093FB2BE35EF50039CC50 /* BilibiliTrendsViewController.m */; };
+		BD2093FF2BE3606D0039CC50 /* BilibiliTrendsVCPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2093FE2BE3606D0039CC50 /* BilibiliTrendsVCPreview.swift */; };
+		BD2094032BE4C3400039CC50 /* TrendsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2094022BE4C3400039CC50 /* TrendsTableViewCell.m */; };
+		BD2094052BE4C4C10039CC50 /* TrendsTableViewCellPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2094042BE4C4C10039CC50 /* TrendsTableViewCellPreview.swift */; };
+		BD2094112BE528270039CC50 /* Trend.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2094102BE528270039CC50 /* Trend.m */; };
+		BD3A5B6B2BF84E26005E08F2 /* LiveIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3A5B6A2BF84E26005E08F2 /* LiveIconView.m */; };
+		BD3A5B6D2BF84E44005E08F2 /* LiveIconPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A5B6C2BF84E44005E08F2 /* LiveIconPreview.swift */; };
+		BD6A08F82BE6616400DC4A65 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = BD6A08F72BE6616400DC4A65 /* SDWebImage */; };
+		BD6A08FA2BE6616400DC4A65 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BD6A08F92BE6616400DC4A65 /* SDWebImageMapKit */; };
+		BD6A08FD2BE66A4000DC4A65 /* ResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A08FC2BE66A4000DC4A65 /* ResponseData.m */; };
+		BD6A09002BE66E3C00DC4A65 /* TrendsFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A08FF2BE66E3C00DC4A65 /* TrendsFetcher.m */; };
+		BD6A09032BE6793400DC4A65 /* ResponsedTrendsData.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6A09022BE6793400DC4A65 /* ResponsedTrendsData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74B2061359A5DFC9C71F6DDF /* Pods-trends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trends.debug.xcconfig"; path = "Target Support Files/Pods-trends/Pods-trends.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C4F4F98D4F324020532CC2 /* libPods-trends.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-trends.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2093DE2BE35E360039CC50 /* trends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trends.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2093E12BE35E360039CC50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD2093E22BE35E360039CC50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD2093ED2BE35E360039CC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD2093F02BE35E360039CC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2093F22BE35E360039CC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2093F32BE35E360039CC50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD2093FA2BE35EF50039CC50 /* BilibiliTrendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BilibiliTrendsViewController.h; sourceTree = "<group>"; };
+		BD2093FB2BE35EF50039CC50 /* BilibiliTrendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BilibiliTrendsViewController.m; sourceTree = "<group>"; };
+		BD2093FD2BE3606C0039CC50 /* trends-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "trends-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD2093FE2BE3606D0039CC50 /* BilibiliTrendsVCPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilibiliTrendsVCPreview.swift; sourceTree = "<group>"; };
+		BD2094012BE4C3400039CC50 /* TrendsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrendsTableViewCell.h; sourceTree = "<group>"; };
+		BD2094022BE4C3400039CC50 /* TrendsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendsTableViewCell.m; sourceTree = "<group>"; };
+		BD2094042BE4C4C10039CC50 /* TrendsTableViewCellPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsTableViewCellPreview.swift; sourceTree = "<group>"; };
+		BD20940F2BE528270039CC50 /* Trend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trend.h; sourceTree = "<group>"; };
+		BD2094102BE528270039CC50 /* Trend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trend.m; sourceTree = "<group>"; };
+		BD3A5B692BF84E26005E08F2 /* LiveIconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveIconView.h; sourceTree = "<group>"; };
+		BD3A5B6A2BF84E26005E08F2 /* LiveIconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveIconView.m; sourceTree = "<group>"; };
+		BD3A5B6C2BF84E44005E08F2 /* LiveIconPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveIconPreview.swift; sourceTree = "<group>"; };
+		BD6A08FB2BE66A4000DC4A65 /* ResponseData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponseData.h; sourceTree = "<group>"; };
+		BD6A08FC2BE66A4000DC4A65 /* ResponseData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseData.m; sourceTree = "<group>"; };
+		BD6A08FE2BE66E3B00DC4A65 /* TrendsFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrendsFetcher.h; sourceTree = "<group>"; };
+		BD6A08FF2BE66E3C00DC4A65 /* TrendsFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendsFetcher.m; sourceTree = "<group>"; };
+		BD6A09012BE6793400DC4A65 /* ResponsedTrendsData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponsedTrendsData.h; sourceTree = "<group>"; };
+		BD6A09022BE6793400DC4A65 /* ResponsedTrendsData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponsedTrendsData.m; sourceTree = "<group>"; };
+		C83DAD50BCA9E5EF7B671B6F /* Pods-trends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-trends.release.xcconfig"; path = "Target Support Files/Pods-trends/Pods-trends.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2093DB2BE35E360039CC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6A08F82BE6616400DC4A65 /* SDWebImage in Frameworks */,
+				BD6A08FA2BE6616400DC4A65 /* SDWebImageMapKit in Frameworks */,
+				846C4EEDA6DDBA5F3CCE4A27 /* libPods-trends.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		087B0E39B015F0E8950F41D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74B2061359A5DFC9C71F6DDF /* Pods-trends.debug.xcconfig */,
+				C83DAD50BCA9E5EF7B671B6F /* Pods-trends.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB08314FE0351AF6944707D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C4F4F98D4F324020532CC2 /* libPods-trends.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD2093D52BE35E350039CC50 = {
+			isa = PBXGroup;
+			children = (
+				BD2093E02BE35E360039CC50 /* trends */,
+				BD2093DF2BE35E360039CC50 /* Products */,
+				087B0E39B015F0E8950F41D1 /* Pods */,
+				AB08314FE0351AF6944707D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2093DF2BE35E360039CC50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2093DE2BE35E360039CC50 /* trends.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2093E02BE35E360039CC50 /* trends */ = {
+			isa = PBXGroup;
+			children = (
+				BD2093E12BE35E360039CC50 /* AppDelegate.h */,
+				BD2093E22BE35E360039CC50 /* AppDelegate.m */,
+				BD20940E2BE5266A0039CC50 /* Models */,
+				BD2094122BE528E90039CC50 /* ViewModel */,
+				BD2093FA2BE35EF50039CC50 /* BilibiliTrendsViewController.h */,
+				BD2093FB2BE35EF50039CC50 /* BilibiliTrendsViewController.m */,
+				BD2094012BE4C3400039CC50 /* TrendsTableViewCell.h */,
+				BD2094022BE4C3400039CC50 /* TrendsTableViewCell.m */,
+				BD3A5B692BF84E26005E08F2 /* LiveIconView.h */,
+				BD3A5B6A2BF84E26005E08F2 /* LiveIconView.m */,
+				BD2094002BE360740039CC50 /* Previews */,
+				BD2093ED2BE35E360039CC50 /* Assets.xcassets */,
+				BD2093EF2BE35E360039CC50 /* LaunchScreen.storyboard */,
+				BD2093F22BE35E360039CC50 /* Info.plist */,
+				BD2093F32BE35E360039CC50 /* main.m */,
+				BD2093FD2BE3606C0039CC50 /* trends-Bridging-Header.h */,
+			);
+			path = trends;
+			sourceTree = "<group>";
+		};
+		BD2094002BE360740039CC50 /* Previews */ = {
+			isa = PBXGroup;
+			children = (
+				BD2093FE2BE3606D0039CC50 /* BilibiliTrendsVCPreview.swift */,
+				BD2094042BE4C4C10039CC50 /* TrendsTableViewCellPreview.swift */,
+				BD3A5B6C2BF84E44005E08F2 /* LiveIconPreview.swift */,
+			);
+			path = Previews;
+			sourceTree = "<group>";
+		};
+		BD20940E2BE5266A0039CC50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BD20940F2BE528270039CC50 /* Trend.h */,
+				BD2094102BE528270039CC50 /* Trend.m */,
+				BD6A09012BE6793400DC4A65 /* ResponsedTrendsData.h */,
+				BD6A09022BE6793400DC4A65 /* ResponsedTrendsData.m */,
+				BD6A08FB2BE66A4000DC4A65 /* ResponseData.h */,
+				BD6A08FC2BE66A4000DC4A65 /* ResponseData.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BD2094122BE528E90039CC50 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD6A08FE2BE66E3B00DC4A65 /* TrendsFetcher.h */,
+				BD6A08FF2BE66E3C00DC4A65 /* TrendsFetcher.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2093DD2BE35E360039CC50 /* trends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2093F72BE35E360039CC50 /* Build configuration list for PBXNativeTarget "trends" */;
+			buildPhases = (
+				06D8E5C59D99AF0AED7B126A /* [CP] Check Pods Manifest.lock */,
+				BD2093DA2BE35E360039CC50 /* Sources */,
+				BD2093DB2BE35E360039CC50 /* Frameworks */,
+				BD2093DC2BE35E360039CC50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trends;
+			packageProductDependencies = (
+				BD6A08F72BE6616400DC4A65 /* SDWebImage */,
+				BD6A08F92BE6616400DC4A65 /* SDWebImageMapKit */,
+			);
+			productName = trends;
+			productReference = BD2093DE2BE35E360039CC50 /* trends.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2093D62BE35E350039CC50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BD2093DD2BE35E360039CC50 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = BD2093D92BE35E350039CC50 /* Build configuration list for PBXProject "trends" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2093D52BE35E350039CC50;
+			packageReferences = (
+				BD6A08F62BE6616400DC4A65 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = BD2093DF2BE35E360039CC50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2093DD2BE35E360039CC50 /* trends */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2093DC2BE35E360039CC50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2093F12BE35E360039CC50 /* LaunchScreen.storyboard in Resources */,
+				BD2093EE2BE35E360039CC50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06D8E5C59D99AF0AED7B126A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-trends-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2093DA2BE35E360039CC50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2094052BE4C4C10039CC50 /* TrendsTableViewCellPreview.swift in Sources */,
+				BD2093FC2BE35EF50039CC50 /* BilibiliTrendsViewController.m in Sources */,
+				BD6A08FD2BE66A4000DC4A65 /* ResponseData.m in Sources */,
+				BD3A5B6B2BF84E26005E08F2 /* LiveIconView.m in Sources */,
+				BD6A09032BE6793400DC4A65 /* ResponsedTrendsData.m in Sources */,
+				BD2094032BE4C3400039CC50 /* TrendsTableViewCell.m in Sources */,
+				BD6A09002BE66E3C00DC4A65 /* TrendsFetcher.m in Sources */,
+				BD2093E32BE35E360039CC50 /* AppDelegate.m in Sources */,
+				BD2093F42BE35E360039CC50 /* main.m in Sources */,
+				BD2093FF2BE3606D0039CC50 /* BilibiliTrendsVCPreview.swift in Sources */,
+				BD2094112BE528270039CC50 /* Trend.m in Sources */,
+				BD3A5B6D2BF84E44005E08F2 /* LiveIconPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD2093EF2BE35E360039CC50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2093F02BE35E360039CC50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2093F52BE35E360039CC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD2093F62BE35E360039CC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2093F82BE35E360039CC50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B2061359A5DFC9C71F6DDF /* Pods-trends.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRB62S584T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = trends/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noreply-email.trends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "trends/trends-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2093F92BE35E360039CC50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83DAD50BCA9E5EF7B671B6F /* Pods-trends.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YRB62S584T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = trends/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noreply-email.trends";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "trends/trends-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2093D92BE35E350039CC50 /* Build configuration list for PBXProject "trends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2093F52BE35E360039CC50 /* Debug */,
+				BD2093F62BE35E360039CC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2093F72BE35E360039CC50 /* Build configuration list for PBXNativeTarget "trends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2093F82BE35E360039CC50 /* Debug */,
+				BD2093F92BE35E360039CC50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD6A08F62BE6616400DC4A65 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD6A08F72BE6616400DC4A65 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD6A08F62BE6616400DC4A65 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		BD6A08F92BE6616400DC4A65 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD6A08F62BE6616400DC4A65 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BD2093D62BE35E350039CC50 /* Project object */;
+}
