@@ -12,6 +12,9 @@
 		BDD758622C1FE2DA007CF342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD758612C1FE2DA007CF342 /* Assets.xcassets */; };
 		BDD758652C1FE2DA007CF342 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDD758642C1FE2DA007CF342 /* Base */; };
 		BDD758682C1FE2DA007CF342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD758672C1FE2DA007CF342 /* main.m */; };
+		BDD7586F2C21555C007CF342 /* hello-developer-ht.json in Resources */ = {isa = PBXBuildFile; fileRef = BDD7586E2C21555C007CF342 /* hello-developer-ht.json */; };
+		BDD758732C216616007CF342 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD758722C216616007CF342 /* Article.m */; };
+		BDD758762C2168CA007CF342 /* DailyContent.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD758752C2168CA007CF342 /* DailyContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,11 @@
 		BDD758642C1FE2DA007CF342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDD758662C1FE2DA007CF342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDD758672C1FE2DA007CF342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDD7586E2C21555C007CF342 /* hello-developer-ht.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "hello-developer-ht.json"; sourceTree = "<group>"; };
+		BDD758712C216616007CF342 /* Article.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		BDD758722C216616007CF342 /* Article.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		BDD758742C2168CA007CF342 /* DailyContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyContent.h; sourceTree = "<group>"; };
+		BDD758752C2168CA007CF342 /* DailyContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyContent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +66,27 @@
 			children = (
 				BDD758552C1FE2D9007CF342 /* AppDelegate.h */,
 				BDD758562C1FE2D9007CF342 /* AppDelegate.m */,
+				BDD758702C216584007CF342 /* Models */,
 				BDD7585B2C1FE2D9007CF342 /* ViewController.h */,
 				BDD7585C2C1FE2D9007CF342 /* ViewController.m */,
+				BDD7586E2C21555C007CF342 /* hello-developer-ht.json */,
 				BDD758612C1FE2DA007CF342 /* Assets.xcassets */,
 				BDD758632C1FE2DA007CF342 /* LaunchScreen.storyboard */,
 				BDD758662C1FE2DA007CF342 /* Info.plist */,
 				BDD758672C1FE2DA007CF342 /* main.m */,
 			);
 			path = "hello-developer-ht";
+			sourceTree = "<group>";
+		};
+		BDD758702C216584007CF342 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDD758712C216616007CF342 /* Article.h */,
+				BDD758722C216616007CF342 /* Article.m */,
+				BDD758742C2168CA007CF342 /* DailyContent.h */,
+				BDD758752C2168CA007CF342 /* DailyContent.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD7586F2C21555C007CF342 /* hello-developer-ht.json in Resources */,
 				BDD758622C1FE2DA007CF342 /* Assets.xcassets in Resources */,
 				BDD758652C1FE2DA007CF342 /* Base in Resources */,
 			);
@@ -137,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD758732C216616007CF342 /* Article.m in Sources */,
+				BDD758762C2168CA007CF342 /* DailyContent.m in Sources */,
 				BDD7585D2C1FE2D9007CF342 /* ViewController.m in Sources */,
 				BDD758572C1FE2D9007CF342 /* AppDelegate.m in Sources */,
 				BDD758682C1FE2DA007CF342 /* main.m in Sources */,

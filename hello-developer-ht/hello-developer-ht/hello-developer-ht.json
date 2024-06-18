@@ -1,0 +1,56 @@
+{
+    "navigation-title": "Today @ WWDC24: Day 5",
+    "article-date": "June 14, 2024",
+    "inline-article-image": "https://devimages-cdn.apple.com/wwdc-services/articles/images/34E684C0-FB35-439D-86D3-C49795AE57DC/2048.jpeg",
+    "title": "Revisit the biggest moments from WWDC24",
+    "subtitle": "Explore the highlights.",
+    "contents": [
+        {
+            "title": "WWDC24 highlights",
+            "desctiprion-content": {
+                "description": "View now",
+                "scheme": "https://developer.apple.com/news/?id=o38yplz0"
+            },
+            "image-content": {
+                "url": "https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/9741/9741_wide_250x141_2x.jpg",
+                "width": 250
+            }
+        },
+        {
+            "title": "Catch WWDC24 recaps around the world",
+            "subtitle": "Join us for special in-person activities at Apple locations worldwide this summer.",
+            "desctiprion-content": {
+                "description": "Sign up &gt;",
+                "scheme": "https://developer.apple.com/events/view/upcoming-events"
+            }
+        },
+        {
+            "title": "Explore apps and games from the Keynote",
+            "subtitle": "Check out all the incredible featured titles.",
+            "desctiprion-content": {
+                "description": "Visit the App Store &gt;",
+                "scheme": "https://apps.apple.com/us/story/id1751324305"
+            }
+        },
+        {
+            "title": "How’d we do?",
+            "subtitle": "We’d love to know your thoughts about this year’s conference.",
+            "desctiprion-content": {
+                "description": "Take the survey &gt;",
+                "scheme": "https://essentials.applesurveys.com/jfe/form/SV_77IwBQzOPHuLMR8?chnl=2"
+            }
+        },
+        {
+            "title": "Today’s WWDC24 playlist: Power Up",
+            "subtitle": "Get ready for one last day.",
+            "desctiprion-content": {
+                "description": "Listen on Apple Music &gt;",
+                "scheme": "https://music.apple.com/us/playlist/pl.e256f57e870046da8fc94174964486e0"
+            }
+        },
+        {
+            "title": "And that’s a wrap!",
+            "subtitle": "Thanks for being part of another incredible WWDC. It’s been a fantastic week of celebrating, connecting, and exploring, and we appreciate the opportunity to share it all with you."
+        }
+    ]
+}
